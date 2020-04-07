@@ -1,12 +1,13 @@
 body{
 	margin: 20px;
+	
 }
 header{
 	-webkit-background: url('http://intro-webdesign.com/CSS/assignment-2/images/flywheel.jpg');
 	-moz-background: url('http://intro-webdesign.com/CSS/assignment-2/images/flywheel.jpg');
 	-o-background: url('http://intro-webdesign.com/CSS/assignment-2/images/flywheel.jpg');
 	background: url('http://intro-webdesign.com/CSS/assignment-2/images/flywheel.jpg');
-	padding: 39px;
+	padding: 39px 39px 20px;
 }
 h1{
 	color: #ffffff;
@@ -14,30 +15,57 @@ h1{
 	text-align: center;
 	text-transform: uppercase; 
 }
+
 nav a{
 	text-decoration: none;
 	color: #000000;
 	display: inline-block;
 	padding: 10px 50px;
 	background-color: #ffffff ;
+	opacity: 0.5;
 	text-align: center;
 	margin: 10px 75px;
 	border-radius: 5px;
 }
-nav a:active{
-	background-color: white;
+.active{
+	background-color:#ffffff;
+	opacity: 1 !important;
+	color: #0356fc;
+}
 
-}
-nav a:hover{
-	background-color: white;
-}
 section{
-	background: #89898c
+	background: #ffffff
+	
 }
 h2{
 	color: #0835ff;
 	text-transform: uppercase;
 }
-img{
-	display: none;
+main{
+	display: inline;
+}
+
+.left{
+	background-color: #34eb77;
+	padding: auto;
+	display: inline-block;
+	float: left;
+	
+	
+}
+
+
+main img{
+
+	border-style: solid;
+	border-color: #000000;
+	border-width: 2px;
+	width: 140px;
+	height: 90px;
+	display: block;
+	margin: 30px;
+	
+
+	
+
 }
