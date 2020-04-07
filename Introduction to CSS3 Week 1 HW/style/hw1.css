@@ -1,8 +1,13 @@
+body{
+	margin: 20px;
+}
 header{
-	background: #bbbbbd;
+	background: url('http://intro-webdesign.com/CSS/assignment-2/images/flywheel.jpg');
+	padding: 39px;
 }
 h1{
 	color: #ffffff;
+	font-size: large;
 	text-align: center;
 	text-transform: uppercase; 
 }
