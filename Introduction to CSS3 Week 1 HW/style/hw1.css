@@ -2,6 +2,9 @@ body{
 	margin: 20px;
 }
 header{
+	-webkit-background: url('http://intro-webdesign.com/CSS/assignment-2/images/flywheel.jpg');
+	-moz-background: url('http://intro-webdesign.com/CSS/assignment-2/images/flywheel.jpg');
+	-o-background: url('http://intro-webdesign.com/CSS/assignment-2/images/flywheel.jpg');
 	background: url('http://intro-webdesign.com/CSS/assignment-2/images/flywheel.jpg');
 	padding: 39px;
 }
@@ -11,9 +14,22 @@ h1{
 	text-align: center;
 	text-transform: uppercase; 
 }
-a{
+nav a{
+	text-decoration: none;
 	color: #000000;
-	text-align: left;
+	display: inline-block;
+	padding: 10px 50px;
+	background-color: #ffffff ;
+	text-align: center;
+	margin: 10px 75px;
+	border-radius: 5px;
+}
+nav a:active{
+	background-color: white;
+
+}
+nav a:hover{
+	background-color: white;
 }
 section{
 	background: #89898c
