@@ -57,6 +57,7 @@ main{
 .left{
 	background-color: #34eb77;
 	margin-right: 7px;
+	height: 90vh;
 	padding: auto;
 	display: inline-block;
 	float: left;
@@ -74,8 +75,37 @@ main img{
 	height: 90px;
 	display: block;
 	margin: 30px;
-	
+}
+table{
+	margin: auto;
+}
+table th{
+	background-color: #59d9b9;
+	padding: 10px;
+	border-radius: 5px 5px 0px 0px;
+	border-bottom: #3d7869;
+	border-style: solid;
+	font-family: sans-serif;
+	font-weight: bolder;
+	border-width: 0px 0px 2px 0px;
+	text-align: left;
 
-	
+}
+table th:nth-child(even), td:nth-child(even), td:last-child{
+	text-align: center;
+}
 
+
+table td{ 
+	color: #000000;
+	background-color: #34eb77;
+	opacity: 0.8;
+	border-radius: 0px 0px 5px 5px;
+	font-family: sans-serif;
+	padding: 5px;
+	
+}
+table td:hover{
+	opacity: 1;
+	text-shadow: #5f9ea0;
 }
